@@ -1,0 +1,11 @@
+#Start recording tcl command: 12/1/2021 08:15:45
+#Project Location: C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src; Project name: PWM
+prj_project open "C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/PWM.ldf"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+#Stop recording: 12/1/2021 10:55:31

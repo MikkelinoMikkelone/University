@@ -1,0 +1,40 @@
+[ START MERGED ]
+n3284 cSelector_2
+[ END MERGED ]
+[ START CLIPPED ]
+VCC_net
+ButtonX/BtnPathGen_0..Deb/add_8_21/S1
+ButtonX/BtnPathGen_0..Deb/add_8_21/CO
+ButtonX/BtnPathGen_0..Deb/add_8_1/S0
+ButtonX/BtnPathGen_0..Deb/add_8_1/CI
+ButtonX/BtnPathGen_1..Deb/add_8_1/S0
+ButtonX/BtnPathGen_1..Deb/add_8_1/CI
+ButtonX/BtnPathGen_1..Deb/add_8_21/S1
+ButtonX/BtnPathGen_1..Deb/add_8_21/CO
+ButtonX/BtnPathGen_2..Deb/add_8_21/S1
+ButtonX/BtnPathGen_2..Deb/add_8_21/CO
+ButtonX/BtnPathGen_2..Deb/add_8_1/S0
+ButtonX/BtnPathGen_2..Deb/add_8_1/CI
+[ END CLIPPED ]
+[ START OSC ]
+Clk 38.00
+[ END OSC ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.9.0.99.2 -- WARNING: Map write only section -- Fri Dec 03 11:45:54 2021
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "aSegments[0]" SITE "25" ;
+LOCATE COMP "aSegments[1]" SITE "23" ;
+LOCATE COMP "aSegments[2]" SITE "11" ;
+LOCATE COMP "aSegments[3]" SITE "16" ;
+LOCATE COMP "aSegments[4]" SITE "14" ;
+LOCATE COMP "aSegments[5]" SITE "17" ;
+LOCATE COMP "aSegments[6]" SITE "20" ;
+LOCATE COMP "aLed" SITE "4" ;
+LOCATE COMP "aButtons[2]" SITE "26" ;
+LOCATE COMP "aButtons[1]" SITE "9" ;
+LOCATE COMP "aButtons[0]" SITE "10" ;
+FREQUENCY NET "Clk" 38.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

@@ -1,0 +1,20 @@
+#Start recording tcl command: 11/23/2021 23:24:43
+#Project Location: /home/hukovpet/Lattice/PWM; Project name: PWM
+prj_project new -name "PWM" -impl "impl1" -dev LCMXO2-1200HC-6SG32C -synthesis "lse"
+prj_project save
+prj_src add "/home/hukovpet/Lattice/PWM/CommonBlock.vhd"
+prj_src remove "/home/hukovpet/Lattice/PWM/CommonBlock.vhd"
+prj_src add "/home/hukovpet/Lattice/PWM/Clk38M.vhd"
+prj_src add "/home/hukovpet/Lattice/PWM/PWM.vhd"
+prj_src add "/home/hukovpet/Lattice/PWM/PWM_Top.vhd"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -forceAll
+pgr_project save "/home/hukovpet/Lattice/PWM/impl1/impl1.xcf"
+prj_src add -exclude "/home/hukovpet/Lattice/PWM/impl1/impl1.xcf"
+prj_src enable "/home/hukovpet/Lattice/PWM/impl1/impl1.xcf"
+pgr_program run
+pgr_project save "/home/hukovpet/Lattice/PWM/impl1/impl1.xcf"
+prj_project save
+pgr_project close
+#Stop recording: 11/24/2021 00:08:19

@@ -1,0 +1,117 @@
+----------------------------------------------------------------------
+Report for cell PWM_Top.TECH
+Register bits:  80 of 1346 (5.944%)
+I/O cells:      11
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33          100.0
+                            FD1P3AX         7          100.0
+                            FD1P3IX        60          100.0
+                            FD1S3AX         9          100.0
+                            FD1S3IX         1          100.0
+                            FD1S3JX         3          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4        75          100.0
+                                 OB         8          100.0
+                               OSCH         1          100.0
+SUB MODULES
+                             BcdDec         1
+                  Buttons(3,760000)         1
+                             Clk38M         1
+                   Debounce(760000)         1
+                Debounce(760000)_U1         1
+                Debounce(760000)_U3         1
+                           ReDetect         1
+                        ReDetect_U0         1
+                        ReDetect_U2         1
+                              TOTAL       210
+----------------------------------------------------------------------
+Report for cell Buttons(3,760000).v1
+Instance Path : ButtonX
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33          100.0
+                            FD1P3AX         3           42.9
+                            FD1P3IX        60          100.0
+                            FD1S3AX         6           66.7
+                               LUT4        49           65.3
+SUB MODULES
+                   Debounce(760000)         1
+                Debounce(760000)_U1         1
+                Debounce(760000)_U3         1
+                           ReDetect         1
+                        ReDetect_U0         1
+                        ReDetect_U2         1
+                              TOTAL       157
+----------------------------------------------------------------------
+Report for cell ReDetect.v1
+Instance Path : ButtonX.BtnPathGen[2].RiseDetect
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         1           11.1
+                               LUT4         3            4.0
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell Debounce(760000).v1
+Instance Path : ButtonX.BtnPathGen[2].Deb
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11           33.3
+                            FD1P3AX         1           14.3
+                            FD1P3IX        20           33.3
+                            FD1S3AX         1           11.1
+                               LUT4        14           18.7
+                              TOTAL        47
+----------------------------------------------------------------------
+Report for cell ReDetect_U0.v1
+Instance Path : ButtonX.BtnPathGen[1].RiseDetect
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         1           11.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell Debounce(760000)_U1.v1
+Instance Path : ButtonX.BtnPathGen[1].Deb
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11           33.3
+                            FD1P3AX         1           14.3
+                            FD1P3IX        20           33.3
+                            FD1S3AX         1           11.1
+                               LUT4        17           22.7
+                              TOTAL        50
+----------------------------------------------------------------------
+Report for cell ReDetect_U2.v1
+Instance Path : ButtonX.BtnPathGen[0].RiseDetect
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         1           11.1
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell Debounce(760000)_U3.v1
+Instance Path : ButtonX.BtnPathGen[0].Deb
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        11           33.3
+                            FD1P3AX         1           14.3
+                            FD1P3IX        20           33.3
+                            FD1S3AX         1           11.1
+                               LUT4        15           20.0
+                              TOTAL        48
+----------------------------------------------------------------------
+Report for cell Clk38M.v1
+Instance Path : ClkGen
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               OSCH         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell BcdDec.v1
+Instance Path : SelectorBcd
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         3           33.3
+                            FD1S3IX         1          100.0
+                            FD1S3JX         3          100.0
+                              TOTAL         7

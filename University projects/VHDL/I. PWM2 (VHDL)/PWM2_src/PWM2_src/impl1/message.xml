@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>aButtons[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>aButtons[3:0](3)</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/clk38m.vhd(9): </Dynamic>
+            <Dynamic>clk38m</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/clk38m.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/clk38m.vhd(13): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/clk38m.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd(5): </Dynamic>
+            <Dynamic>pwm</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd(11): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/bcddec.vhd(4): </Dynamic>
+            <Dynamic>bcddec</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/bcddec.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/bcddec.vhd(10): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/bcddec.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/doublesync.vhd(4): </Dynamic>
+            <Dynamic>doublesync</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/doublesync.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/doublesync.vhd(10): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/doublesync.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/debounce.vhd(4): </Dynamic>
+            <Dynamic>debounce</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/debounce.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/debounce.vhd(11): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/debounce.vhd</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/redetect.vhd(4): </Dynamic>
+            <Dynamic>redetect</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/redetect.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/redetect.vhd(10): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/redetect.vhd</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/buttons.vhd(4): </Dynamic>
+            <Dynamic>buttons</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/buttons.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/buttons.vhd(13): </Dynamic>
+            <Dynamic>struct</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/buttons.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(5): </Dynamic>
+            <Dynamic>pwm_top</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(11): </Dynamic>
+            <Dynamic>rtl</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(9): </Dynamic>
+            <Dynamic>PWM_Top</Dynamic>
+            <Dynamic>RTL</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(110): </Dynamic>
+            <Dynamic>cState_i1</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd</Navigation>
+            <Navigation>110</Navigation>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd(41): </Dynamic>
+            <Dynamic>\PWMGen[1].PwmX/cPwm_19</Dynamic>
+            <Navigation>c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd</Navigation>
+            <Navigation>41</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>aButtons[3]</Dynamic>
+            <Navigation>aButtons[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>aButtons[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

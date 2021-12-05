@@ -1,0 +1,283 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond (64-bit) 3.9.0.99.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Dec 03 11:45:52 2021
+
+
+Command Line:  synthesis -f PWM_impl1_lattice.synproj -gui -msgset C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/promote.xml 
+
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 6.
+The -t option is QFN32.
+The -d option is LCMXO2-1200HC.
+Using package QFN32.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-1200HC
+
+### Package : QFN32
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = PWM_Top.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data (searchpath added)
+-p C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/impl1 (searchpath added)
+-p C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src (searchpath added)
+VHDL library = work
+VHDL design file = C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/Clk38M.vhd
+VHDL design file = C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/PWM.vhd
+VHDL design file = C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/PWM_Top.vhd
+VHDL design file = C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/Debounce.vhd
+VHDL design file = C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/DoubleSync.vhd
+VHDL design file = C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/ReDetect.vhd
+VHDL design file = C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/Buttons.vhd
+VHDL design file = C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/BcdDec.vhd
+NGD file = PWM_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.9_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "C:/Users/Mikkelino/Desktop/Programming/Lattice Diamond projektek/PWM2/PWM2_src/PWM2_src/impl1". VHDL-1504
+Analyzing VHDL file c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/clk38m.vhd. VHDL-1481
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/clk38m.vhd(9): analyzing entity clk38m. VHDL-1012
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/clk38m.vhd(13): analyzing architecture rtl. VHDL-1010
+unit PWM_Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd. VHDL-1481
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd(5): analyzing entity pwm. VHDL-1012
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd(11): analyzing architecture rtl. VHDL-1010
+unit PWM_Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/bcddec.vhd. VHDL-1481
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/bcddec.vhd(4): analyzing entity bcddec. VHDL-1012
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/bcddec.vhd(10): analyzing architecture rtl. VHDL-1010
+unit PWM_Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/doublesync.vhd. VHDL-1481
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/doublesync.vhd(4): analyzing entity doublesync. VHDL-1012
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/doublesync.vhd(10): analyzing architecture rtl. VHDL-1010
+unit PWM_Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/debounce.vhd. VHDL-1481
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/debounce.vhd(4): analyzing entity debounce. VHDL-1012
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/debounce.vhd(11): analyzing architecture rtl. VHDL-1010
+unit PWM_Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/redetect.vhd. VHDL-1481
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/redetect.vhd(4): analyzing entity redetect. VHDL-1012
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/redetect.vhd(10): analyzing architecture rtl. VHDL-1010
+unit PWM_Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/buttons.vhd. VHDL-1481
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/buttons.vhd(4): analyzing entity buttons. VHDL-1012
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/buttons.vhd(13): analyzing architecture struct. VHDL-1010
+unit PWM_Top is not yet analyzed. VHDL-1485
+Analyzing VHDL file c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd. VHDL-1481
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(5): analyzing entity pwm_top. VHDL-1012
+INFO - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(11): analyzing architecture rtl. VHDL-1010
+unit PWM_Top is not yet analyzed. VHDL-1485
+unit PWM_Top is not yet analyzed. VHDL-1485
+c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(5): executing PWM_Top(RTL)
+
+WARNING - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(9): replacing existing netlist PWM_Top(RTL). VHDL-1205
+Top module name (VHDL): PWM_Top
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c1200.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Preliminary    Version 1.42.
+Top-level module name = PWM_Top.
+######## Missing driver on net aLed. Patching with GND.
+
+
+
+WARNING - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm_top.vhd(110): Register cState_i1 is stuck at Zero. VDB-5013
+WARNING - synthesis: c:/users/mikkelino/desktop/programming/lattice diamond projektek/pwm2/pwm2_src/pwm2_src/pwm.vhd(41): Register \PWMGen[1].PwmX/cPwm_19 is stuck at Zero. VDB-5013
+GSR will not be inferred because no asynchronous signal was found in the netlist.
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in PWM_Top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.9_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+WARNING - synthesis: logical net 'aButtons[3]' has no load.
+WARNING - synthesis: input pad net 'aButtons[3]' has no legal load.
+WARNING - synthesis: DRC complete with 2 warnings.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file PWM_impl1.ngd.
+
+################### Begin Area Report (PWM_Top)######################
+Number of register bits => 80 of 1346 (5 % )
+CCU2D => 33
+FD1P3AX => 7
+FD1P3IX => 60
+FD1S3AX => 9
+FD1S3IX => 1
+FD1S3JX => 3
+GSR => 1
+IB => 3
+LUT4 => 75
+OB => 8
+OSCH => 1
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : ClkGen/Clk, loads : 80
+Clock Enable Nets
+Number of Clock Enables: 8
+Top 8 highest fanout Clock Enables:
+  Net : ButtonX/BtnPathGen_0..Deb/Clk_enable_64, loads : 20
+  Net : ButtonX/BtnPathGen_1..Deb/Clk_enable_23, loads : 20
+  Net : ButtonX/BtnPathGen_2..Deb/Clk_enable_42, loads : 20
+  Net : Clk_enable_63, loads : 3
+  Net : ButtonX/BtnPathGen_2..Deb/cSigOut_N_175, loads : 1
+  Net : ButtonX/BtnPathGen_0..Deb/cSigOut_N_175, loads : 1
+  Net : ButtonX/BtnPathGen_1..Deb/cSigOut_N_175, loads : 1
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : ButtonX/BtnPathGen_0..Deb/cCounter_19__N_173, loads : 22
+  Net : ButtonX/BtnPathGen_2..Deb/cCounter_19__N_173, loads : 21
+  Net : ButtonX/BtnPathGen_1..Deb/cCounter_19__N_173, loads : 21
+  Net : ButtonX/BtnPathGen_2..Deb/Clk_enable_42, loads : 20
+  Net : ButtonX/BtnPathGen_1..Deb/Clk_enable_23, loads : 20
+  Net : ButtonX/BtnPathGen_0..Deb/Clk_enable_64, loads : 20
+  Net : cSelector_2, loads : 12
+  Net : cSelector_1, loads : 12
+  Net : cSelector_0, loads : 12
+  Net : cState_0, loads : 11
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets Clk]                     |  200.000 MHz|  144.530 MHz|     6 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 73.645  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.906  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

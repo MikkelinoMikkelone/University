@@ -1,0 +1,4 @@
+#Start recording tcl command: 11/24/2021 09:17:44
+#Project Location: /home/hukovpet/Lattice/PWM; Project name: PWM
+prj_project open "/home/hukovpet/Lattice/PWM/PWM.ldf"
+#Stop recording: 11/24/2021 12:44:54

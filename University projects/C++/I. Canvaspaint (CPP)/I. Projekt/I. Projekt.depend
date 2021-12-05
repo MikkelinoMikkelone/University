@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1604071934 source:c:\users\mikkelino\desktop\programozás\c++ projektek\objektum orientált programozás\vi. hatodik alkalom\i. projekt\main.cpp
+	<iostream>
+	<fstream>
+	"rgb.h"
+	"rgbmatrix.h"
+
+1604064763 c:\users\mikkelino\desktop\programozás\c++ projektek\objektum orientált programozás\vi. hatodik alkalom\i. projekt\rgb.h
+	<iostream>
+
+1604064763 c:\users\mikkelino\desktop\programozás\c++ projektek\objektum orientált programozás\vi. hatodik alkalom\i. projekt\rgbmatrix.h
+	<iostream>
+	<vector>
+
+1604071934 source:c:\users\mikkelino\desktop\programming\c++ projektek\objektum orientált programozás\vi. hatodik alkalom\i. projekt\main.cpp
+	<iostream>
+	<fstream>
+	"rgb.h"
+	"rgbmatrix.h"
+
+1604064763 c:\users\mikkelino\desktop\programming\c++ projektek\objektum orientált programozás\vi. hatodik alkalom\i. projekt\rgb.h
+	<iostream>
+
+1604064763 c:\users\mikkelino\desktop\programming\c++ projektek\objektum orientált programozás\vi. hatodik alkalom\i. projekt\rgbmatrix.h
+	<iostream>
+	<vector>
+

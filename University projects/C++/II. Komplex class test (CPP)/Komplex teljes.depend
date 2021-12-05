@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1610359544 source:c:\users\mikkelino\desktop\programozás\c++ projektek\objektum orientált programozás\vizsga készülés\komplex teljes\komplex teljes\main.cpp
+	<iostream>
+	<cmath>
+	"komplex.h"
+
+1610359544 c:\users\mikkelino\desktop\programozás\c++ projektek\objektum orientált programozás\vizsga készülés\komplex teljes\komplex teljes\komplex.h
+	<iostream>
+	<cmath>
+
+1610359544 source:c:\users\mikkelino\desktop\programming\c++ projektek\objektum orientált programozás\vizsga készülés\komplex teljes\komplex teljes\main.cpp
+	<iostream>
+	<cmath>
+	"komplex.h"
+
+1610359544 c:\users\mikkelino\desktop\programming\c++ projektek\objektum orientált programozás\vizsga készülés\komplex teljes\komplex teljes\komplex.h
+	<iostream>
+	<cmath>
+

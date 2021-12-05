@@ -1,0 +1,19 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Dec 03 11:46:02 2021 *
+NOTE DESIGN NAME: PWM_Top *
+NOTE DEVICE NAME: LCMXO2-1200HC-6QFN32 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS aSegments[0] : 25 : out *
+NOTE PINS aSegments[1] : 23 : out *
+NOTE PINS aSegments[2] : 11 : out *
+NOTE PINS aSegments[3] : 16 : out *
+NOTE PINS aSegments[4] : 14 : out *
+NOTE PINS aSegments[5] : 17 : out *
+NOTE PINS aSegments[6] : 20 : out *
+NOTE PINS aLed : 4 : out *
+NOTE PINS aButtons[2] : 26 : in *
+NOTE PINS aButtons[1] : 9 : in *
+NOTE PINS aButtons[0] : 10 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *
